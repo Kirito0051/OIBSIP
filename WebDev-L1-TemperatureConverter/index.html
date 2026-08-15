@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="A responsive temperature converter built with HTML, CSS and JavaScript.">
+
+    <title>Temperature Converter</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <main class="converter-page">
+
+        <section class="converter-container">
+
+            <!-- Header -->
+
+            <div class="converter-header">
+
+                <p class="eyebrow">
+                    OASIS INFOBYTE · TASK 3
+                </p>
+
+                <h1>
+                    Temperature
+                    <span>Converter.</span>
+                </h1>
+
+                <p class="intro">
+                    Convert temperatures quickly and accurately
+                    between Celsius, Fahrenheit and Kelvin.
+                </p>
+
+            </div>
+
+
+            <!-- Converter Card -->
+
+            <div class="converter-card">
+
+                <div class="input-section">
+
+                    <label for="temperature">
+                        Enter Temperature
+                    </label>
+
+                    <div class="input-wrapper">
+
+                        <input type="number" id="temperature" placeholder="25" step="any"
+                            aria-describedby="errorMessage">
+
+                        <span class="input-symbol">
+                            °
+                        </span>
+
+                    </div>
+
+                    <p class="error-message" id="errorMessage" aria-live="polite"></p>
+
+                </div>
+
+
+                <!-- Unit Selection -->
+
+                <div class="unit-section">
+
+                    <label for="unit">
+                        Input Unit
+                    </label>
+
+                    <select id="unit">
+
+                        <option value="celsius">
+                            Celsius (°C)
+                        </option>
+
+                        <option value="fahrenheit">
+                            Fahrenheit (°F)
+                        </option>
+
+                        <option value="kelvin">
+                            Kelvin (K)
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- Convert Button -->
+
+                <button type="button" id="convertButton" class="convert-button">
+                    Convert Temperature
+                    <span>→</span>
+                </button>
+
+            </div>
+
+
+            <!-- Results -->
+
+            <section class="results" id="results" aria-live="polite">
+
+                <div class="result-card">
+
+                    <p class="result-unit">
+                        CELSIUS
+                    </p>
+
+                    <h2 id="celsiusResult">
+                        —
+                    </h2>
+
+                    <span>°C</span>
+
+                </div>
+
+
+                <div class="result-card">
+
+                    <p class="result-unit">
+                        FAHRENHEIT
+                    </p>
+
+                    <h2 id="fahrenheitResult">
+                        —
+                    </h2>
+
+                    <span>°F</span>
+
+                </div>
+
+
+                <div class="result-card">
+
+                    <p class="result-unit">
+                        KELVIN
+                    </p>
+
+                    <h2 id="kelvinResult">
+                        —
+                    </h2>
+
+                    <span>K</span>
+
+                </div>
+
+            </section>
+
+
+            <!-- Footer -->
+
+            <footer class="footer">
+
+                <p>
+                    Built with HTML · CSS · JavaScript
+                </p>
+
+                <p>
+                    OASIS INFOBYTE Web Development Internship
+                </p>
+
+            </footer>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
