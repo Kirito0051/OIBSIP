@@ -19,6 +19,8 @@ A responsive landing page created using HTML and CSS, focusing on clean design, 
 
 **Project:** [WebDev-L1-LandingPage](./WebDev-L1-LandingPage)
 
+**Live Demo:** [Visit Website](https://oibsip-landing-page-xi.vercel.app/)
+
 ---
 
 ### 02 — Personal Portfolio
@@ -51,6 +53,8 @@ The project includes input validation, absolute-zero validation, decimal support
 
 **Project:** [WebDev-L1-TemperatureConverter](./WebDev-L1-TemperatureConverter)
 
+**Live Demo:** [Visit Website](https://oibsip-temperature-converter-mocha.vercel.app/)
+
 ---
 
 ## 🛠️ Technologies Used
@@ -62,6 +66,15 @@ The project includes input validation, absolute-zero validation, decimal support
 | JavaScript | Interactivity and functionality |
 | Git        | Version control                 |
 | GitHub     | Project hosting                 |
+| Vercel     | Project deployment              |
+
+---
+
+## 🌐 Live Projects
+
+- **Landing Page:** [View Live Website](https://oibsip-landing-page-xi.vercel.app/)
+- **Personal Portfolio:** [View Live Website](https://oibsip-roan-seven.vercel.app/)
+- **Temperature Converter:** [View Live Website](https://oibsip-temperature-converter-mocha.vercel.app/)
 
 ---
 
