@@ -3,10 +3,6 @@
 A responsive personal portfolio website built to showcase my skills,
 projects, education, experience and contact information as a Frontend Developer.
 
-## 🚀 Live Preview
-
-Add your deployed website link here.
-
 ## 📌 About
 
 This portfolio was created as part of the OASIS INFOBYTE Web Development
