@@ -6,7 +6,7 @@ NOVA is a fictional productivity platform designed to help users organize their 
 
 ## 🚀 Live Preview
 
-**Live Demo:** `[YOUR_LIVE_DEMO_LINK](https://oibsip-landing-page-xi.vercel.app/)`
+**Live Demo:** (https://oibsip-landing-page-xi.vercel.app/)
 
 ## 📸 Preview
 
